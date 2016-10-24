@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/AppColorBlack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--상단 타이틀바-->
+    <style name="Blue_TitleBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="White_TitleBar">
+        <item name="android:background">#ffffff</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <!--로그인부분-->
+    <style name="logintext">
+        <item name="android:color">#9c9c9c</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="loginbutton">
+        <item name="android:background">@drawable/roundbutton_gray</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--아래 로그인 및 하단 버튼-->
+    <style name="bottombutton">
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/roundbutton_gray</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <!--메인페이지 상단 예약 버튼-->
+    <style name="reservation_button">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>
